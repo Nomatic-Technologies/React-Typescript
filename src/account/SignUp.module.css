@@ -1,0 +1,88 @@
+.MainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FeatureCarousel {
+  background-color: #1a1b41;
+  min-height: 100%;
+  color: #e0e0e0;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.CarouselContainer {
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.Logo {
+  width: 150px !important;
+  margin: 20% auto 0 auto !important;
+}
+
+.FormContainer {
+  width: 500px !important;
+  margin: auto auto;
+  padding: 2rem;
+}
+
+.SignUpMessage {
+  font-family: "Sulphur Point", sans-serif;
+  margin: 3em 0 0 4em !important;
+  width: max-content !important;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.TextInput {
+  font-family: "Cairo", sans-serif;
+  border: none !important;
+  background-color: #e0e0e0 !important;
+  color: #757575;
+  border-radius: 0.75em !important;
+}
+
+.SubmitButton {
+  background-color: #1a1b41 !important;
+  color: #ffffff !important;
+  width: 75% !important;
+  margin: 20px auto 0 auto !important;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #757575;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.8em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.8em;
+}
+
+.SocialBrandsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SocialBrandLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.SignInMessage {
+  color: #757575;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+.MainDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #EEEEEE 14.66%, #FDFDFD 27.38%, #FFFFFF 98.85%);
+}

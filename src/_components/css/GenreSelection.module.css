@@ -1,0 +1,83 @@
+.MainContainer {
+  height: 100vh;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.Sidebar {
+  background-color: #1a1b41;
+  min-height: 100%;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ImageUploadBox {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #56ccf2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7em !important;
+}
+
+.TitleContainer {
+  margin-top: 5em !important;
+}
+
+.GenrePill {
+  width: max-content !important;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border-radius: 25px;
+  background: #fbfafa;
+  border: 1px solid rgba(120, 161, 187, 0.3);
+  box-sizing: border-box;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.GenrePillSelected{
+  background: #56ccf2;
+  box-shadow: inset 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.GenresContainer {
+  margin-top: 1em;
+}
+
+.ContentContainer {
+  padding-left: 4em !important;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.ButtonContainer {
+  margin-top: auto !important;
+  margin-bottom: 1em;
+  flex-flow: row;
+  justify-content: end;
+  padding: 0 1em;
+}
+
+.PreviousButton {
+  width: max-content !important;
+  margin-left: 1em !important;
+  background-color: #e0e0e0 !important;
+  border: none !important;
+  color: black !important
+}
+
+.FinishButton {
+  width: max-content !important;
+  margin-left: 1em !important;
+  background-color: #1a1b41 !important;
+  border: none !important;
+}
+
+.SkipLinkContainer {
+  width: max-content !important;
+  text-align: center;
+}

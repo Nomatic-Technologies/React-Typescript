@@ -1,0 +1,154 @@
+.MainContainer {
+  height: 100vh;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.Sidebar {
+  background-color: #1a1b41;
+  min-height: 100%;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.UsernameInput {
+  border: none !important;
+  background-color: transparent !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: solid #eeeeee 1px !important;
+  text-align: center !important;
+  outline: none !important;
+  color: #56ccf2 !important;
+  border-radius: 0% !important;
+}
+
+.ImageUploadBox {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #56ccf2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ContentContainer {
+  display: flex;
+  flex-flow: column;
+}
+
+.MessageContainer {
+  margin-left: 4em !important;
+  margin-top: 5em !important;
+  font-size: larger;
+}
+
+.FormContainer {
+  margin-top: 3em !important;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+  align-items: center;
+}
+
+.InputField {
+  background-color: #e0e0e0 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  text-align: center;
+}
+
+.GenderDiv{
+  padding: 5px 10px;
+  margin: 0 1px;
+}
+
+.GenderDiv :hover {
+  cursor: pointer;
+}
+.GenderLabel {
+  background-color: #e0e0e0;
+}
+
+.GenderLabelSelected {
+  background: #56ccf2;
+  box-shadow: inset 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.GenderContainer div:first-of-type {
+  border-radius: 10px 0 0 10px;
+}
+
+.GenderContainer div:last-of-type {
+  border-radius: 0 10px 10px 0;
+}
+
+.ButtonContainer {
+  margin-top: auto !important;
+  margin-bottom: 1em;
+  flex-flow: row;
+  justify-content: end;
+  padding: 0 1em;
+}
+
+.NextButton {
+  width: 100%;
+  background-color: #1a1b41 !important;
+}
+
+.Container {
+  height: 540px;
+}
+
+.Cropcontainer {
+  position: relative;
+  height: 90%;
+}
+
+.Controls {
+  width: 40%;
+  margin-left: 5%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.Zoomtxt {
+  margin-right: 8%;
+  font-size: 1rem;
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: bold;
+}
+
+.Buttons {
+  position: relative;
+  top: -7%;
+  margin-left: 90%;
+  width: 10%;
+  background: #F5F5F5;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+}
+
+.Ticksign {
+  color: #27AE60;
+  position: relative;
+  left: 5px;
+}
+
+.Textbtn {
+  font-family: "Sulphur Point", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
+
+}
